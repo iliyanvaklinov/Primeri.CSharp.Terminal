@@ -19,6 +19,16 @@ namespace Modul02
 			Console.Write (b);
 			Console.Write (" = ");
 			Console.WriteLine (sum);
+			// Допълнителни оператори
+			Console.WriteLine ("/nизпозване на -= ");
+			a -= b;
+			Console.WriteLine ( a );
+			Console.WriteLine ("/nизпозване на *= ");
+			a *= b;
+			Console.WriteLine ( a );
+			Console.WriteLine ("/nизпозване на ++ ");
+			a ++ ;
+			Console.WriteLine ( a );
 		}
 	}
 }
